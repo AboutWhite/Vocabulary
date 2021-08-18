@@ -1,4 +1,9 @@
-console.log(fetch('https://reqres.in/api/users'));
+
+
+let response = fetch('https://aboutwhite.github.io/data/data.txt')
+.then(res=> res.text())
+.then(data=> console.log(data))
+
 
 
 //load list of words when load the window
